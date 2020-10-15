@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffeffd;
+  overflow-x: hidden;
+}
+
+#dataset {
+  border: none;
+  outline: none;
+  background-color: #dbffb0;
+  color: rgb(92, 92, 92);
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+g {
+  overflow: hidden;
+}
+
+#title {
+  font-size: 2rem;
+}
+
+#title,
+#description {
+  padding: 10px;
+}
+
+#rectText {
+  font-size: 0.5rem;
+}
+
+#legend {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+  width: 150px;
+  z-index: -99;
+  font-size: 0.7rem;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: #dbffb0;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  padding: 10px;
+  color: rgb(92, 92, 92);
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #legend {
+    position: relative;
+  }
+}
